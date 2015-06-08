@@ -1,4 +1,4 @@
-my-residence [![Build Status](https://travis-ci.org/ismarslomic/myresidence.svg?branch=master)](https://travis-ci.org/ismarslomic/myresidence) [![Code Climate](https://codeclimate.com/github/ismarslomic/myresidence/badges/gpa.svg)](https://codeclimate.com/github/ismarslomic/myresidence) [![Test Coverage](https://codeclimate.com/github/ismarslomic/myresidence/badges/coverage.svg)](https://codeclimate.com/github/ismarslomic/myresidence/coverage) [![Dependencies](https://david-dm.org/ismarslomic/myresidence.png?theme=shields.io)](https://david-dm.org/ismarslomic/myresidence)
+my-residence [![Build Status](https://travis-ci.org/ismarslomic/myresidence.svg?branch=master)](https://travis-ci.org/ismarslomic/myresidence) [![Code Climate](https://codeclimate.com/github/ismarslomic/myresidence/badges/gpa.svg)](https://codeclimate.com/github/ismarslomic/myresidence) [![Test Coverage](https://codeclimate.com/github/ismarslomic/myresidence/badges/coverage.svg)](https://codeclimate.com/github/ismarslomic/myresidence/coverage) [![Dependencies](https://david-dm.org/ismarslomic/myresidence.png?theme=shields.io)](https://david-dm.org/ismarslomic/myresidence) [![devDependency Status](https://david-dm.org/ismarslomic/myresidence/dev-status.svg)](https://david-dm.org/ismarslomic/myresidence#info=devDependencies)
 ============
 
 Web application for administrating your residence such as condominium (nor: boligsameie og borettslag)
@@ -18,7 +18,7 @@ ncu
 ncu -u
 ```
 
-### Upgrade bower modules to latst version
+### Upgrade bower modules to latest version
 ```bash
 # Install with npm
 npm install -g bower-update
