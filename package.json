@@ -9,9 +9,10 @@
     "url": "git+https://github.com/ismarslomic/myresidence.git"
   },
   "license": "Apache-2.0",
-  "dependencies": {},
+  "dependencies": {
+  },
   "scripts": {
-    "prestart": "npm install",
+    "postinstall": "npm install bower -g",
     "pretest": "npm install && bower install",
     "test": "gulp test"
   },
