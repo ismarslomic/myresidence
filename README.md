@@ -3,6 +3,22 @@ my-residence [![Build Status](https://travis-ci.org/ismarslomic/myresidence.svg?
 
 Web application for administrating your residence such as condominium (nor: boligsameie og borettslag)
 
+### Install dependencies
+```bash
+sudo npm install
+bower install
+```
+
+### Use Gulp tasks
+
+* `gulp` or `gulp build` to build an optimized version of your application in `/dist`
+* `gulp serve` to launch a browser sync server on your source files
+* `gulp serve:dist` to launch a server on your optimized application
+* `gulp test` to launch your unit tests with Karma
+* `gulp test:auto` to launch your unit tests with Karma in watch mode
+* `gulp protractor` to launch your e2e tests with Protractor
+* `gulp protractor:dist` to launch your e2e tests with Protractor on the dist files
+
 ### Project strucutre based on
 [generator-gulp-angular](https://github.com/Swiip/generator-gulp-angular)
 
@@ -26,9 +42,3 @@ npm install -g bower-update
 # Upgrade all bower modules to latest version and update bower.json
 bower-update --non-interactive
 ```
-
-# Test technologies
-Karma - unit test runner
-Phantom - Headless Webkit scriptable with a javascript api
-Jasmine - e2e + unit tests - behaviour-driven framework for testing javascript code. Alternative to mocha, chai and sinon.
-Protractor - e2e test runner
