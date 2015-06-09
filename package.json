@@ -12,6 +12,7 @@
   "dependencies": {
   },
   "scripts": {
+    "pretest": "npm install && bower install",
     "test": "gulp test"
   },
   "devDependencies": {
