@@ -26,3 +26,9 @@ npm install -g bower-update
 # Upgrade all bower modules to latest version and update bower.json
 bower-update --non-interactive
 ```
+
+# Test technologies
+Karma - unit test runner
+Phantom - Headless Webkit scriptable with a javascript api
+Jasmine - e2e + unit tests - behaviour-driven framework for testing javascript code. Alternative to mocha, chai and sinon.
+Protractor - e2e test runner

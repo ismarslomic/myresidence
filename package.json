@@ -12,8 +12,6 @@
   "dependencies": {
   },
   "scripts": {
-    "postinstall": "npm install bower -g",
-    "pretest": "npm install && bower install",
     "test": "gulp test"
   },
   "devDependencies": {
